@@ -1,0 +1,13 @@
+﻿body
+{
+
+}
+
+#gamebox {
+	position: relative;
+	align-content: center;
+	margin: auto;
+	width: 800px;
+	height: 450px;
+	background-color: black;
+}

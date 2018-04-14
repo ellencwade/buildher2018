@@ -4,10 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Space Impact Game</title>
+	<link rel="stylesheet" href="SpaceImpactGame.css"/>
 </head>
 <body>
 	<p>Hello, World!</p>
+	<div id="gamebox">
+		<div id="ship"></div>
+	</div>
+
 	<script>
+		var shipbox = document.getElementById("ship");
 		var ship = {
 			x: 0,
 			y: 0,
@@ -18,6 +24,8 @@
 			
 			}
 		};
+
+
         function check(event) {
             var key = event.which || event.keyCode;
             switch (key) {
