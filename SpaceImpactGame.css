@@ -11,3 +11,12 @@
 	height: 450px;
 	background-color: black;
 }
+
+#shipbox {  /* lol this is random (: */
+    position: relative;
+    align-content: center;
+    margin: auto;
+    width: 100px;
+    height: 60px;
+    background-color: white;
+}
