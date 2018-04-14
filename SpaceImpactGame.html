@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Space Impact Game</title>
 </head>
 <body>
 	<p>Hello, World!</p>
@@ -16,14 +16,23 @@
 			},
 			moveDown: function() {
 			
-			},
-			moveLeft: function() {
-			
-			},
-			moveRight: function() {
-			
 			}
 		};
-	</script>
+        function check(event) {
+            var key = event.which || event.keyCode;
+            switch (key) {
+                case 37:
+                    leftMove();
+                    break;
+                case 39:
+                    rightMove();
+                    break;
+                case 38:
+                    upMove();
+                    break;
+                case 40:
+                    downMove();
+            }
+	<script>
 </body>
 </html>
