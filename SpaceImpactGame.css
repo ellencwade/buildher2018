@@ -12,12 +12,51 @@
 	background-color: black;
 }
 
-#ship {  /* lol this is random (: */
+#ship { 
     position: absolute;
     align-content: center;
     margin-left: 30px;
-	margin-top: 100px;
+	margin-top: 225px;
     width: 100px;
     height: 60px;
     background-color: white;
 }
+
+#enemy1 {
+    position: absolute;
+    align-content: center;
+    margin-left: 720px;
+    margin-top: 75px;
+    width: 50px;
+    height: 30px;
+    background-color: yellowgreen;
+}
+
+#enemy2 {
+    position: absolute;
+    align-content: center;
+    margin-left: 720px;
+    margin-top: 225px;
+    width: 50px;
+    height: 30px;
+    background-color: yellowgreen;
+}
+
+#enemy3 {
+    position: absolute;
+    align-content: center;
+    margin-left: 720px;
+    margin-top: 375px;
+    width: 50px;
+    height: 30px;
+    background-color: yellowgreen;
+}
+
+#bullet {
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    background-color: yellowgreen;
+}
+
+
