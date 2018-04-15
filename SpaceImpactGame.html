@@ -25,25 +25,22 @@
 			}
 		};
 
-		function update() {
-			shipbox.marginLeft
-		}
-		function upMove() {
-		
-		}
-		function downMove() {
-		
-		}
-		function check(event) {
-		    var key = event.which || event.keyCode;
-		    switch (key) {
-		        case 38:
-		            upMove();
-		            break;
-		        case 40:
-		            downMove();
-		    }
-		}
-	</script>
+
+        function check(event) {
+            var key = event.which || event.keyCode;
+            switch (key) {
+                case 37:
+                    leftMove();
+                    break;
+                case 39:
+                    rightMove();
+                    break;
+                case 38:
+                    upMove();
+                    break;
+                case 40:
+                    downMove();
+            }
+	<script>
 </body>
 </html>
