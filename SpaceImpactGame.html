@@ -7,7 +7,10 @@
 	<link rel="stylesheet" href="SpaceImpactGame.css"/>
 </head>
 <body>
-	<p>Hello, World!</p>
+	<h1>SpaceImpactGame</h1>
+	<p>Designed after Space Impact game</p>
+	<p>Antonette Narvasa and Ellen Wade</p>
+	<p>BuildHer 2018 Hackathon</p>
 	<div id="gamebox">
 		<div id="ship"></div>
 	</div>
@@ -16,30 +19,19 @@
 		var shipbox = document.getElementById("ship");
 		var ship = {
 			x: 0,
-			y: 0,
-			moveUp: function() {
-			
-			},
-			moveDown: function() {
-			
+			y: 0
 			}
 		};
-
 
         function check(event) {
             var key = event.which || event.keyCode;
             switch (key) {
-                case 37:
-                    leftMove();
-                    break;
-                case 39:
-                    rightMove();
-                    break;
                 case 38:
-                    upMove();
+					ship.y = ship.y - 1;
                     break;
                 case 40:
-                    downMove();
+                    ship.y = ship.y + 1;
+			document.getElementById("ship").style.marginTop = ship.y + "px";
             }
 	<script>
 </body>
